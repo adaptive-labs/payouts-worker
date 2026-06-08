@@ -1,0 +1,19 @@
+schemaVersion: 1
+service:
+  id: payouts-worker
+  name: Payouts Worker
+  type: worker
+  tier: high
+  description: Batches and disburses payouts to drivers and merchants.
+lifecycle: production
+tags:
+- adaptive-labs
+- payments
+owner:
+- type: team
+  id: payments
+links:
+- name: Runbook
+  url: ./docs/runbook.md
+- name: Onboarding
+  url: ./docs/onboarding.md
