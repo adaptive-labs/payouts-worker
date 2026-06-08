@@ -16,4 +16,5 @@ Batches and disburses payouts to drivers and merchants.
 
 ## Dependencies
 
-No upstream service dependencies of note.
+It talks to:
+- `ledger-service`

@@ -12,6 +12,9 @@ tags:
 owner:
 - type: team
   id: payments
+relations:
+- type: depends_on
+  target: service:ledger-service
 links:
 - name: Runbook
   url: ./docs/runbook.md
